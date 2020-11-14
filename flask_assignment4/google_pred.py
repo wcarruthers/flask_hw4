@@ -1,12 +1,12 @@
 import googleapiclient.discovery
 from google.api_core.client_options import ClientOptions
 import numpy as np
-import os
+#import os
 
-print("Importing being called")
+#print("Importing being called")
 
-credential_path = 'lucid-honor-295522-305e6cacd6aa.json'
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credential_path
+#credential_path = 'lucid-honor-295522-305e6cacd6aa.json'
+#os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credential_path
 
 def predict_json(project, region, model, instances, version=None):
     """Send json data to a deployed model for prediction.
@@ -24,7 +24,7 @@ def predict_json(project, region, model, instances, version=None):
         Mapping[str: any]: dictionary of prediction results defined by the
             model.
     """
-    print("I am being called json")
+    #print("I am being called json")
     # Create the ML Engine service object.
     # To authenticate set the environment variable
     # GOOGLE_APPLICATION_CREDENTIALS=<path_to_service_account_file>
