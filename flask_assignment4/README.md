@@ -1,5 +1,5 @@
-To run this you need Keras, TensorFlow, Python.
+To run git clone repo in google app engine
+change directory to flask_assignment4 in google app engine
+run gcloud app deploy
 
-Please follow [this link](https://medium.com/@ashok.tankala/building-digit-prediction-web-application-using-tensorflow-with-keras-and-flask-19f8bbdaec0b) to know more about this code/project.
-
-Please follow [this link](https://medium.com/@ashok.tankala/build-your-first-deep-learning-neural-network-model-using-keras-tensorflow-in-python-a3e76a6b3ccb) to build your model.
+upload test image for prediction
